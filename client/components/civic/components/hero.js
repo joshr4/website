@@ -31,7 +31,7 @@ export const Header = props => {
               </div>
               <div className="col-lg-6">
                 <figure className="hero-image">
-                  {/* <img src='../../public/img/DSC_0046.jpg' alt="5" /> */}
+                  <img src='/img/DSC_0802.jpg' alt="5" />
                 </figure>
               </div>
               </div>
