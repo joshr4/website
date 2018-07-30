@@ -9,44 +9,44 @@ export const Portfolio = props => {
   const { email } = props
 
   return (
-    <section class="portfolio-section spad pb-0">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xl-4 col-md-8 offset-xl-2 ">
-					<div class="section-title">
+    <section className="portfolio-section spad pb-0">
+		<div className="container-fluid">
+			<div className="row">
+				<div className="col-xl-4 col-md-8 offset-xl-2 ">
+					<div className="section-title">
 						<h2>Portfolio</h2>
 					</div>
 				</div>
-				<div class="col-md-4 text-md-right">
-					<a href="#" class="site-btn mb-5">See All Portfolio</a>
+				<div className="col-md-4 text-md-right">
+					<a href="#" className="site-btn mb-5">See All Portfolio</a>
 				</div>
 			</div>
-			<div class="portfolio-warp">
-				<div class="row">
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<div class="portfolio-item">
-							<a href="img/portfolio/1.jpg" class="set-bg port-pic" data-setbg="img/portfolio/1.jpg"></a>
+			<div className="portfolio-warp">
+				<div className="row">
+					<div className="col-xl-3 col-lg-6 col-md-6">
+						<div className="portfolio-item">
+							<a href="img/portfolio/1.jpg" className="set-bg port-pic" data-setbg="img/portfolio/1.jpg" />
 							<h2>Brand Campaign</h2>
 							<p>Graphic design</p>
 						</div>
 					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<div class="portfolio-item">
-							<a href="img/portfolio/2.jpg" class="set-bg port-pic" data-setbg="img/portfolio/2.jpg"></a>
+					<div className="col-xl-3 col-lg-6 col-md-6">
+						<div className="portfolio-item">
+							<a href="img/portfolio/2.jpg" className="set-bg port-pic" data-setbg="img/portfolio/2.jpg" />
 							<h2>A Corporate Identity</h2>
 							<p>Graphic design</p>
 						</div>
 					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<div class="portfolio-item">
-							<a href="img/portfolio/3.jpg" class="set-bg port-pic" data-setbg="img/portfolio/3.jpg"></a>
+					<div className="col-xl-3 col-lg-6 col-md-6">
+						<div className="portfolio-item">
+							<a href="img/portfolio/3.jpg" className="set-bg port-pic" data-setbg="img/portfolio/3.jpg" />
 							<h2>Web Design Website</h2>
 							<p>Graphic design</p>
 						</div>
 					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<div class="portfolio-item">
-							<a href="img/portfolio/4.jpg" class="set-bg port-pic" data-setbg="img/portfolio/4.jpg"></a>
+					<div className="col-xl-3 col-lg-6 col-md-6">
+						<div className="portfolio-item">
+							<a href="img/portfolio/4.jpg" className="set-bg port-pic" data-setbg="img/portfolio/4.jpg" />
 							<h2>Logo design</h2>
 							<p>Graphic design</p>
 						</div>

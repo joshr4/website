@@ -11,21 +11,21 @@ export const Header = props => {
   return (
     <div>
       {/* <div id="preloder">
-        <div class="loader"></div>
+        <div className="loader"></div>
       </div> */}
 
-      <header class="header-section">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="site-logo">
+      <header className="header-section">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-4">
+              <div className="site-logo">
                 <h2><a href="#">Header!</a></h2>
                 <p>Enhance your online presence</p>
               </div>
             </div>
-            <div class="col-md-8 text-md-right header-buttons">
-              <a href="#" class="site-btn">Download CV</a>
-              <a href="#" class="site-btn">Discover me</a>
+            <div className="col-md-8 text-md-right header-buttons">
+              <a href="#" className="site-btn">Download CV</a>
+              <a href="#" className="site-btn">Discover me</a>
             </div>
           </div>
         </div>

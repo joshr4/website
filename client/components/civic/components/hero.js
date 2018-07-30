@@ -9,17 +9,17 @@ export const Header = props => {
   const { email } = props
 
   return (
-    <section class="hero-section spad">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xl-10 offset-xl-1">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="hero-text">
-                  <h2>Maria Williams</h2>
+    <section className="hero-section spad">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-xl-10 offset-xl-1">
+            <div className="row">
+              <div className="col-lg-6">
+                <div className="hero-text">
+                  <h2>Josh Remaley</h2>
                   <p>I’m a digital designer in love with photography, painting and discovering new worlds and cultures.</p>
                 </div>
-                <div class="hero-info">
+                <div className="hero-info">
                   <h2>General Info</h2>
                   <ul>
                     <li><span>Date of Birth</span>Aug 25, 1988</li>
@@ -29,9 +29,9 @@ export const Header = props => {
                   </ul>
                 </div>
               </div>
-              <div class="col-lg-6">
-                <figure class="hero-image">
-                  {/* <img src="img/hero.jpg" alt="5"> */}
+              <div className="col-lg-6">
+                <figure className="hero-image">
+                  {/* <img src='../../public/img/DSC_0046.jpg' alt="5" /> */}
                 </figure>
               </div>
               </div>
