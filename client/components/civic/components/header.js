@@ -19,7 +19,7 @@ export const Header = props => {
           <div class="row">
             <div class="col-md-4">
               <div class="site-logo">
-                <h2><a href="#">Header</a></h2>
+                <h2><a href="#">Header!</a></h2>
                 <p>Enhance your online presence</p>
               </div>
             </div>

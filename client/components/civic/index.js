@@ -1,6 +1,41 @@
+import React from 'react'
+import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
+import { Header, Hero, Social, Resume, Portfolio, Skills, Contact } from './components'
+
 /**
- * `components/index.js` exists simply as a 'central export' for our components.
- * This way, we can import all of our components from the same place, rather than
- * having to figure out which file they belong to!
+ * COMPONENT
  */
-export {default as Header} from './header'
+export const Civic = props => {
+  const { email } = props
+
+  return (
+    <div>
+      <Header />
+      <Hero />
+      <Social />
+      <Resume />
+      <Portfolio />
+      <Skills />
+      <Contact />
+    </div>
+  )
+}
+
+/**
+ * CONTAINER
+ */
+const mapState = state => {
+  return {
+    //email: state.user.email
+  }
+}
+
+export default connect(mapState)(Civic)
+
+/**
+ * PROP TYPES
+ */
+Civic.propTypes = {
+  email: PropTypes.string
+}
