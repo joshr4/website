@@ -17,7 +17,7 @@ export const Header = props => {
               <h2></h2>
             </div>
             <div className="col-md-8 text-md-right header-buttons">
-              <a href="#" className="site-btn">Download Resume</a>
+              <a href="https://drive.google.com/open?id=1uyqfFknqKzxxp90h-qXCv62wrMk58bVW" className="site-btn">Download Resume</a>
             </div>
           </div>
         </div>
