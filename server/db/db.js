@@ -10,10 +10,12 @@ const databaseName = pkg.name + (process.env.NODE_ENV === 'test' ? '-test' : '')
 //   }
 // )
 
-//   process.env.DATABASE_URL || `postgres:8*cupcakE//192.168.8.146:5432/${databaseName}`,
-const db = new Sequelize(databaseName, 'postgres', '8*cupcakE', {
+const db = new Sequelize({
+  database: databaseName,
+  username: process.env.DATABASE_USER || null,
+  password: process.env.DATABASE_PASSWORD || null,
   dialect: 'postgres',
-  host: "192.168.8.146",
+  host: process.env.DATABASE_HOST || 'localhost',
   port: 5432,
   logging: false
 })
