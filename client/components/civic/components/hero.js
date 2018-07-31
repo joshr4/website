@@ -14,20 +14,9 @@ export const Header = props => {
         <div className="row">
           <div className="col-xl-10 offset-xl-1">
             <div className="row">
-              <div className="col-lg-6">
-                <div className="hero-text">
-                  <h2>Josh Remaley</h2>
-                  <p>I’m a digital designer in love with photography, painting and discovering new worlds and cultures.</p>
-                </div>
-                <div className="hero-info">
-                  <h2>General Info</h2>
-                  <ul>
-                    <li><span>Date of Birth</span>Aug 25, 1988</li>
-                    <li><span>Address</span>Rosia Road 55, Gibraltar, UK</li>
-                    <li><span>E-mail</span>mariawilliams@company.com</li>
-                    <li><span>Phone </span>+43 5266 22 345</li>
-                  </ul>
-                </div>
+              <div className="col-lg-6 hero-text">
+                  <h4>Hi, I'm Josh Remaley</h4>
+                  <p>I’m a full stack software developer</p>
               </div>
               <div className="col-lg-6">
                 <figure className="hero-image">

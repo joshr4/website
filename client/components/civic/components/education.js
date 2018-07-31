@@ -18,16 +18,15 @@ export const Education = props => {
 						</div>
 						<ul className="resume-list">
 							<li>
-								<h2>2008</h2>
-								<h3>Ui/Ux Diploma</h3>
-								<h4>Design College California</h4>
+								<h2>2018</h2>
+								<h3>Software Immersive</h3>
+								<h4>Fullstack Academy</h4>
 								<p>Sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed. </p>
 							</li>
 							<li>
-								<h2>2006</h2>
-								<h3>Web design Diploma</h3>
-								<h4>Design College California</h4>
-								<p>Sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed. </p>
+								<h2>2012</h2>
+								<h3>Mechanical Engineering B.S.</h3>
+								<h4>University of Illinois Urbana-Champaign</h4>
 							</li>
 						</ul>
 					</div>

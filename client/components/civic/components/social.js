@@ -9,19 +9,18 @@ export const Social = props => {
   const { email } = props
 
   return (
-    <div class="social-section">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xl-10 offset-xl-1">
-					<div class="social-link-warp">
-						<div class="social-links">
-							<a href=""><i class="fa fa-pinterest"></i></a>
-							<a href=""><i class="fa fa-linkedin"></i></a>
-							<a href=""><i class="fa fa-instagram"></i></a>
-							<a href=""><i class="fa fa-facebook"></i></a>
-							<a href=""><i class="fa fa-twitter"></i></a>
+    <div className="social-section">
+		<div className="container-fluid">
+			<div className="row">
+				<div className="col-xl-10 offset-xl-1">
+					<div className="social-link-warp">
+						<div className="social-links">
+							<a href="https://www.linkedin.com/in/joshremaley/"><i className="fa fa-linkedin"></i></a>
+							<a href="mailto:joshremaley@gmail.com"><i className="fa fa-envelope"></i></a>
+							<a href="https://github.com/joshr4"><i className="fa fa-github"></i></a>
+							<a href="https://angel.co/josh-remaley"><i className="fa fa-angellist"></i></a>
 						</div>
-						<h2 class="hidden-md hidden-sm">My Social Profiles</h2>
+						<h2 className="hidden-md hidden-sm">Contact Me</h2>
 					</div>
 				</div>
 			</div>
