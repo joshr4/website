@@ -10,23 +10,18 @@ export const Header = props => {
   const { email } = props
 
   return (
-    <div>
       <header className="header-section">
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-4">
-              <div className="site-logo">
-                <h2><a href="#">Josh Remaley</a></h2>
-                <p>Full Stack Developer</p>
-              </div>
+              <h2></h2>
             </div>
             <div className="col-md-8 text-md-right header-buttons">
-              <a href="#" className="site-btn">View Resume</a>
+              <a href="#" className="site-btn">Download Resume</a>
             </div>
           </div>
         </div>
       </header>
-    </div>
   )
 }
 

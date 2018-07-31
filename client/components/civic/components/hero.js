@@ -15,8 +15,9 @@ export const Header = props => {
           <div className="col-xl-10 offset-xl-1">
             <div className="row">
               <div className="col-lg-6 hero-text">
-                  <h4>Hi, I'm Josh Remaley</h4>
-                  <p>I’m a full stack software developer</p>
+                  <p>Hi, I'm Josh Remaley</p>
+                  <h4>I’m a mechanical engineer turned full stack developer.</h4>
+                  <h4> Technologies: JavaScript(ES6), React, Redux, Node, Express, PostGreSQL, Sequelize, Semantic UI React, HTML/CSS, Raspberry Pi, Express, Git, FreeNAS, Docker, Portainer, Bitcoin </h4>
               </div>
               <div className="col-lg-6">
                 <figure className="hero-image">
@@ -29,7 +30,7 @@ export const Header = props => {
         </div>
     </section>
       )
-    }
+  }
 
     /**
      * CONTAINER
