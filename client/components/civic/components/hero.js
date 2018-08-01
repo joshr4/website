@@ -9,7 +9,7 @@ export const Header = props => {
   const { email } = props
 
   return (
-    <section className="hero-section spad">
+    <section className="hero-section spad hero-background-image">
       <div className="container-fluid">
         <div className="row">
           <div className="col-xl-10 offset-xl-1">

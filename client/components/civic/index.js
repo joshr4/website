@@ -15,9 +15,9 @@ export const Civic = props => {
       <Hero />
       <Social />
       <Portfolio />
-      <Education />
-      <Resume />
-      <Skills />
+      {/* <Education /> */}
+      {/* <Resume /> */}
+      {/* <Skills /> */}
     </div>
   )
 }
