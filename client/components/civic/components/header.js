@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { Sticky } from 'semantic-ui-react'
+import { Social } from './index'
 
 /**
  * COMPONENT
@@ -10,15 +11,8 @@ export const Header = props => {
   const { email } = props
 
   return (
-      <header className="header-section">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-md-4">
-              <h2></h2>
-            </div>
-
-          </div>
-        </div>
+      <header style={{ 'display': 'flex', 'flex-direction':'row', 'justify-content': 'flex-end', 'padding': '1em' }}>
+              <Social />
       </header>
   )
 }
