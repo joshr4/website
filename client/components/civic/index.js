@@ -11,9 +11,10 @@ export const Civic = props => {
 
   return (
     <div>
-      <Header />
-      <Hero />
-      <Social />
+      <div className="main-background-image">
+        <Header />
+        <Hero />
+      </div>
       <Portfolio />
       {/* <Education /> */}
       {/* <Resume /> */}

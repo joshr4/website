@@ -10,27 +10,12 @@ export const Header = props => {
   const { email } = props
 
   return (
-    <section className="hero-section spad hero-background-image">
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-xl-10 offset-xl-1">
-            <div className="row">
-              <div className="col-lg-6 hero-text">
-                <p>Hi, I'm Josh</p>
-                <h4>I’m a full stack developer.</h4>
-                <h4> Technologies: JavaScript(ES6), React, Redux, Node, Express, PostGreSQL, Sequelize, Semantic UI React, HTML/CSS, Raspberry Pi, Express, Git, FreeNAS, Docker, Portainer, Bitcoin </h4>
-                <div className="col-md-8 text-md-right header-buttons">
-                  <a href="https://drive.google.com/open?id=1uyqfFknqKzxxp90h-qXCv62wrMk58bVW" target="_blank" rel="noopener noreferer" className="site-btn">View Resume</a>
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <figure className="hero-image">
-                  <img src='/img/DSC_0802.png' alt="5" />
-                </figure>
-              </div>
-            </div>
-          </div>
-        </div>
+    <section className="container-fluid mobilenopadding hero-padding">
+    <p className="title-josh">Hi, I'm Josh</p>
+      <div>
+        <h4>I’m a full stack developer who has a passion for new technologies. I'm most comfortable writing javascript on the front and back end, but am always open to learning new languages!</h4>
+        <h4>In my past career I was a mechanical engineering consultant. I recently completed an immersive software engineering program at Fullstack Academy. I'm a big proponent of distributed ledger blockchain technologies and will strive to become an expert in the area.</h4>
+        <h4>Technologies: JavaScript(ES6), React, Redux, Node, Express, PostGreSQL, Sequelize, HTML/CSS, Docker, Portainer, Git, FreeNAS, Bitcoin</h4>
       </div>
     </section>
   )

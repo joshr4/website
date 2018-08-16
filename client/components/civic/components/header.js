@@ -11,9 +11,14 @@ export const Header = props => {
   const { email } = props
 
   return (
-      <header style={{ 'display': 'flex', 'flex-direction':'row', 'justify-content': 'flex-end', 'padding': '1em' }}>
-              <Social />
+    <Sticky offset={5}>
+      <header style={{ 'display': 'flex', 'flexDirection': 'row', 'justifyContent': 'flex-end', 'padding': '1em' }}>
+        <div className="col-md-8 text-md-right header-buttons">
+          <a href="https://drive.google.com/open?id=1uyqfFknqKzxxp90h-qXCv62wrMk58bVW" target="_blank" rel="noopener noreferer" style={{ 'fontSize': '20px', 'border':'2px solid #40424a', 'backgroundColor': '#fff', 'fontWeight': '700', 'padding': '.5em'}}>Resume</a>
+        </div>
+        <Social />
       </header>
+    </Sticky>
   )
 }
 
