@@ -1,17 +1,25 @@
-.title-name {
-  background-color: #85DCBd;
-  color: #41B3A3
+.portfolio-title {
+  background-color: #55aaff;
+  color: #41B3A3;
+  padding: .5em;
 }
 
-.portfolio-josh {
+.portfolio-flex {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.portfolio-media {
-  min-width: 0;
-  margin: 5px;
+.portfolio-item {
+  width: 28em;
+  height: 28em;
+  padding: 4em;
+}
+
+.portfolio-item p {
+  color: black;
+  font-size: 20px;
+  font-weight: 800;
 }
 
 .portfolio-img {
@@ -53,7 +61,6 @@
 
 .headshot-image {
   width: 18em;
-  f
 }
 
 .hero-padding {

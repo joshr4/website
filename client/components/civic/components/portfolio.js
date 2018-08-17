@@ -10,28 +10,34 @@ export const Portfolio = props => {
 	const { email } = props
 
 	return (
-		<section className="portfolio-section spad pb-0">
-						<div className="section-title">
-							<h2>Portfolio</h2>
+		<div>
+			<div className="portfolio-title">
+				<h2>Portfolio</h2>
+			</div>
+			<div className="portfolio-flex">
+				<div className="portfolio-item">
+					<a href="https://pack-finder.herokuapp.com/" target="_blank" rel="noopener noreferer">
+						<img src='/img/pack-finder.png' style={{'width':'100%', 'height':'100%', 'transform':'scale(.8)'}}/>
+					</a>
+					<p>Pack-finder</p>
+					<a href="https://github.com/DJ-RM/PackFinder" target="_blank" rel="noopener noreferer"><i className="fa fa-github"> Github Repo</i></a>
 				</div>
-				<Grid>
-						<Grid.Column mobile={16} tablet={8} computer={5}>
-							<Image src='/img/pack-finder.png' as='a' size='medium' href='https://pack-finder.herokuapp.com/' target='_blank' />
-							<p>Pack-finder</p>
-							<a href="https://github.com/DJ-RM/PackFinder" target="_blank" rel="noopener noreferer"><i className="fa fa-github"> Github Repo</i></a>
-						</Grid.Column >
-						<Grid.Column mobile={16} tablet={8} computer={5}>
-							<Image src='/img/torch-store.png' as='a' size='medium' href='http://torch-store.herokuapp.com/' target='_blank'/>
-							<p>Torch-store</p>
-							<a href="https://github.com/Erikas-firestarters/graceshopper" target="_blank" rel="noopener noreferer"><i className="fa fa-github"> Github Repo</i></a>
-						</Grid.Column>
-						<Grid.Column mobile={16} tablet={8} computer={5}>
-							<Image src='/img/pack-finder.png' as='a' size='medium' href='https://google.com' target='_blank'/>
-							<p>Raspberry-Pi Thermostat</p>
-							<a href="https://github.com/joshr4/stackathon" target="_blank" rel="noopener noreferer"><i className="fa fa-github"> Github Repo</i></a>
-						</Grid.Column>
-				</Grid>
-		</section>
+				<div className="portfolio-item">
+					<a href="http://torch-store.herokuapp.com/" target="_blank" rel="noopener noreferer">
+						<img src='/img/torch-store.png' style={{'width':'100%', 'height':'100%', 'transform':'scale(.8)'}}/>
+					</a>
+					<p>Torch-store</p>
+					<a href="https://github.com/Erikas-firestarters/graceshopper" target="_blank" rel="noopener noreferer"><i className="fa fa-github"> Github Repo</i></a>
+				</div>
+				<div className="portfolio-item">
+				<a href="https://www.youtube.com/watch/Gkr4o3UUU10" target="_blank" rel="noopener noreferer">
+				<img src='/img/raspberry_pi.jpg' style={{'width':'100%', 'height':'100%', 'transform':'scale(.8)'}}/>
+				</a>
+					<p>Raspberry-Pi Thermostat</p>
+					<a href="https://github.com/joshr4/stackathon" target="_blank" rel="noopener noreferer"><i className="fa fa-github"> Github Repo</i></a>
+				</div>
+			</div>
+		</div>
 	)
 }
 
