@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { Sticky } from 'semantic-ui-react'
-import { Social } from './index'
+import { Social } from './Social'
 
 /**
  * COMPONENT
