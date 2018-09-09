@@ -10,7 +10,6 @@ import {Civic} from './components/civic/'
  */
 class Routes extends Component {
   componentDidMount() {
-    //this.props.loadInitialData()
   }
 
   render() {
@@ -18,8 +17,6 @@ class Routes extends Component {
     return (
       <Switch>
         <Route component={Splash} />
-
-        {/* <Route component={Civic} /> */}
       </Switch>
     )
   }

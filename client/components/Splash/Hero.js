@@ -13,13 +13,13 @@ export const Header = props => {
     <div className="master-hero">
       <div className="headshot-flex">
         <p className="title-josh">Hi, I'm Josh</p>
-        <div className="headshot-image">
-          <img src="/img/headshot.jpg" />
+        <div className="headshot-image" >
+          <img src="/img/headshot.jpg" style={{borderRadius: '1em'}}/>
         </div>
       </div>
       <section className="container-fluid mobilenopadding hero-padding">
-        <div>
-          <h4>I’m a full stack developer who has a passion for new technologies. My preffered stack is Node.js with express and sequelize with React + Redux on the frontend. I </h4>
+        <div style={{borderRadius: '0.5em'}}>
+          <h4>I’m a full stack developer who has a passion for new technologies. My preffered stack is Node.js with express and sequelize with React + Redux on the frontend.</h4>
           <h4>In my past career I was a mechanical engineering consultant. I recently completed an immersive software engineering program at Fullstack Academy. I'm a big proponent of distributed ledger blockchain technologies and will strive to expand my skills in this area.</h4>
           <h4>Technologies: JavaScript(ES6), React, Redux, Node, Express, PostGreSQL, Sequelize, HTML/CSS, Docker, Portainer, Git, FreeNAS, Bitcoin</h4>
         </div>
