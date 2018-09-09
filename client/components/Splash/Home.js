@@ -14,27 +14,29 @@ export const Home = props => {
       <Jumbotron>
         <Grid>
           <Row className="show-grid">
-            <Col xs={12} md={8}>
-              <h2>Hi, I'm Josh.</h2>
-              <p>I’m a full stack developer who has a passion for new technologies. My preffered stack is Node.js with express and sequelize with React + Redux on the frontend.</p>
-            </Col>
-            <Col xs={6} md={4}>
-              <Image src="/img/headshot.jpg" circle responsive/>
-            </Col>
+            <div style={{ margin: '10%' }}>
+              <Col xs={12} md={8}>
+                <h2>Hi, I'm Josh.</h2>
+                <p>I’m a full stack developer who has a passion for new technologies. My preffered stack is Node.js with express and sequelize with React + Redux on the frontend.</p>
+              </Col>
+              <Col xs={6} md={4}>
+                <Image src="/img/headshot.jpg" circle responsive />
+              </Col>
+            </div>
           </Row>
-          </Grid>
+        </Grid>
       </Jumbotron>;
     </section>
-      )
-    }
+  )
+}
 
-    /**
-     * CONTAINER
-     */
+/**
+ * CONTAINER
+ */
 const mapState = state => {
   return {
-        //email: state.user.email
-      }
-      }
+    //email: state.user.email
+  }
+}
 
-      export default connect(mapState)(Home)
+export default connect(mapState)(Home)

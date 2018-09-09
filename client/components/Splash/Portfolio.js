@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
-import { Grid, Image } from 'semantic-ui-react'
+import { Thumbnail, Grid, Row, Col, Button } from 'react-bootstrap'
 
 /**
  * COMPONENT
@@ -9,36 +9,38 @@ import { Grid, Image } from 'semantic-ui-react'
 export const Portfolio = props => {
 	const { email } = props
 
-	return (
-		<section id="portfolio">
-			<div>
-				<h2>Portfolio</h2>
-			</div>
-			<div>
-				<div>
-					<a href="https://pack-finder.herokuapp.com/" target="_blank" rel="noopener noreferer">
-						<img src='/img/pack-finder.png' style={{'width':'100%', 'height':'100%', 'transform':'scale(.8)'}}/>
-					</a>
-					<p>Pack-finder</p>
-					<a href="https://github.com/DJ-RM/PackFinder" target="_blank" rel="noopener noreferer"><i className="fa fa-github"> Github Repo</i></a>
-				</div>
-				<div>
-					<a href="http://torch-store.herokuapp.com/" target="_blank" rel="noopener noreferer">
-						<img src='/img/torch-store.png' style={{'width':'100%', 'height':'100%', 'transform':'scale(.8)'}}/>
-					</a>
-					<p>Torch-store</p>
-					<a href="https://github.com/Erikas-firestarters/graceshopper" target="_blank" rel="noopener noreferer"><i className="fa fa-github"> Github Repo</i></a>
-				</div>
-				<div>
-				<a href="https://www.youtube.com/watch/Gkr4o3UUU10" target="_blank" rel="noopener noreferer">
-				<img src='/img/raspberry_pi.jpg' style={{'width':'100%', 'height':'100%', 'transform':'scale(.8)'}}/>
-				</a>
-					<p>Raspberry-Pi Thermostat</p>
-					<a href="https://github.com/joshr4/stackathon" target="_blank" rel="noopener noreferer"><i className="fa fa-github"> Github Repo</i></a>
-				</div>
-			</div>
-		</section>
-	)
+	return <section id="portfolio">
+		<h1 style={{textAlign:'center'}}>PROJECTS</h1>
+		<div></div>
+		<Grid>
+			<Row>
+				<Col xs={6} md={4}>
+					<Thumbnail src="/img/pack-finder.png" target="_blank" href="https://pack-finder.herokuapp.com/" alt="242x200">
+						<h3>Pack Finder</h3>
+						<a href="https://github.com/DJ-RM/PackFinder" target="_blank" rel="noopener noreferer">
+							<i className="fa fa-github"> Github Repo</i>
+						</a>
+					</Thumbnail>
+				</Col>
+				<Col xs={6} md={4}>
+					<Thumbnail src="/img/torch-store.png" target="_blank" href="http://torch-store.herokuapp.com/" alt="242x200">
+						<h3>Torch Store</h3>
+						<a href="https://github.com/Erikas-firestarters/graceshopper" target="_blank" rel="noopener noreferer">
+							<i className="fa fa-github"> Github Repo</i>
+						</a>
+					</Thumbnail>
+				</Col>
+				<Col xs={6} md={4}>
+					<Thumbnail src="/img/raspberry_pi.jpg" target="_blank" href="https://www.youtube.com/watch/Gkr4o3UUU10" alt="242x200">
+						<h3>Raspberry Pi Thermostat</h3>
+						<a href="https://github.com/joshr4/stackathon" target="_blank" rel="noopener noreferer">
+							<i className="fa fa-github"> Github Repo</i>
+						</a>
+					</Thumbnail>
+				</Col>
+			</Row>
+		</Grid>
+	</section>
 }
 
 /**

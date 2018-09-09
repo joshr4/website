@@ -14,7 +14,7 @@ export const Header = props => {
     <Navbar inverse collapseOnSelect fixedTop={true}>
       <Navbar.Header>
         <Navbar.Brand>
-          <a href="home">Josh Remaley</a>
+          <a href="#home">Josh Remaley</a>
         </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar.Header>
