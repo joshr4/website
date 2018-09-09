@@ -11,25 +11,25 @@ export const Portfolio = props => {
 
 	return (
 		<div>
-			<div className="portfolio-title">
+			<div>
 				<h2>Portfolio</h2>
 			</div>
-			<div className="portfolio-flex">
-				<div className="portfolio-item">
+			<div>
+				<div>
 					<a href="https://pack-finder.herokuapp.com/" target="_blank" rel="noopener noreferer">
 						<img src='/img/pack-finder.png' style={{'width':'100%', 'height':'100%', 'transform':'scale(.8)'}}/>
 					</a>
 					<p>Pack-finder</p>
 					<a href="https://github.com/DJ-RM/PackFinder" target="_blank" rel="noopener noreferer"><i className="fa fa-github"> Github Repo</i></a>
 				</div>
-				<div className="portfolio-item">
+				<div>
 					<a href="http://torch-store.herokuapp.com/" target="_blank" rel="noopener noreferer">
 						<img src='/img/torch-store.png' style={{'width':'100%', 'height':'100%', 'transform':'scale(.8)'}}/>
 					</a>
 					<p>Torch-store</p>
 					<a href="https://github.com/Erikas-firestarters/graceshopper" target="_blank" rel="noopener noreferer"><i className="fa fa-github"> Github Repo</i></a>
 				</div>
-				<div className="portfolio-item">
+				<div>
 				<a href="https://www.youtube.com/watch/Gkr4o3UUU10" target="_blank" rel="noopener noreferer">
 				<img src='/img/raspberry_pi.jpg' style={{'width':'100%', 'height':'100%', 'transform':'scale(.8)'}}/>
 				</a>
