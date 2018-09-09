@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { Social } from './Social'
+import { Navbar, Nav, MenuItem, NavDropdown, NavItem } from 'react-bootstrap'
 
 /**
  * COMPONENT
@@ -10,12 +11,31 @@ export const Header = props => {
   const { email } = props
 
   return (
-      <header>
-        <div>
-          <a href="https://drive.google.com/open?id=1dbjw6u0VXkA5MSPz6eN_qx7Cwy02ypxX" target="_blank" rel="noopener noreferer">Resume</a>
-        </div>
-        <Social />
-      </header>
+    <Navbar inverse collapseOnSelect fixedTop={true}>
+      <Navbar.Header>
+        <Navbar.Brand>
+          <a href="home">Josh Remaley</a>
+        </Navbar.Brand>
+        <Navbar.Toggle />
+      </Navbar.Header>
+      <Navbar.Collapse>
+        <Nav pullRight>
+        <NavItem eventKey={2} href="#about">
+            About
+        </NavItem>
+        <NavItem eventKey={3} href="#portfolio">
+            Portfolio
+        </NavItem>
+        {/* <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
+            <MenuItem eventKey={3.1}>Action</MenuItem>
+            <MenuItem eventKey={3.2}>Another action</MenuItem>
+            <MenuItem eventKey={3.3}>Something else here</MenuItem>
+            <MenuItem divider />
+            <MenuItem eventKey={3.3}>Separated link</MenuItem>
+          </NavDropdown> */}
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   )
 }
 

@@ -15,6 +15,7 @@ export const Social = props => {
 						<a href="mailto:joshremaley@gmail.com" target="_blank" rel="noopener noreferer">email</a>
 						<a href="https://github.com/joshr4" target="_blank" rel="noopener noreferer">github</a>
 						<a href="https://angel.co/josh-remaley" target="_blank" rel="noopener noreferer">angel</a>
+						<a href="https://drive.google.com/open?id=1dbjw6u0VXkA5MSPz6eN_qx7Cwy02ypxX" target="_blank" rel="noopener noreferer">Resume</a>
 					</div>
 		</div>
 	)

@@ -10,7 +10,7 @@ export const Portfolio = props => {
 	const { email } = props
 
 	return (
-		<div>
+		<section id="portfolio">
 			<div>
 				<h2>Portfolio</h2>
 			</div>
@@ -37,7 +37,7 @@ export const Portfolio = props => {
 					<a href="https://github.com/joshr4/stackathon" target="_blank" rel="noopener noreferer"><i className="fa fa-github"> Github Repo</i></a>
 				</div>
 			</div>
-		</div>
+		</section>
 	)
 }
 
