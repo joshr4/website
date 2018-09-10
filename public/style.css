@@ -27,8 +27,19 @@ html {
 :target:before {
   content:"";
   display:block;
-  height: 20px; /* fixed header height*/
-  margin: -20px 0 0; /* negative fixed header height */
+  height: 0px; /* fixed header height*/
+  margin: 0px 0 0; /* negative fixed header height */
+}
+
+.about-me {
+  text-align: center;
+  padding: 1em 10% 1em 10%;
+  font-size: 1px;
+}
+
+.section-title {
+  text-align: center;
+  padding: 1em 10% 1em 10%;
 }
 
 .project {
@@ -36,7 +47,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10% 1em;
+  padding: 5% 1em;
   transition: .15s;
 }
 
@@ -47,18 +58,20 @@ html {
 .social-btn-group {
   display: flex;
   justify-content: space-evenly;
-  margin: 0.5em 6em 0.5em 6em;
+  margin: 0.5em 20% 0.5em 20%;
+  min-width: 320px;
 }
 .social-btn {
   display:flex;
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
   border: 2px solid #090934;
   align-items: center;
   justify-content: center;
   padding: 0% 1em;
   transition: .15s;
+  color: #448D76
 }
 
 .social-btn:hover {
@@ -67,7 +80,6 @@ html {
 
 .social-btn-text {
   font-size: 30px !important;
-  color: #448D76
 }
 
 a:hover {

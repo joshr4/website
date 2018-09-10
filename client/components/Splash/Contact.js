@@ -1,17 +1,16 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { ButtonGroup, Button } from 'react-bootstrap'
 
 /**
  * COMPONENT
  */
-export const Social = props => {
+export const Contact = props => {
 	const { email } = props
 
 	return (
 		<div className="anchor" id="contact">
-			<h1 style={{ textAlign: 'center', margin: '1em 10% 0.5em 10%' }}>CONTACT</h1>
+			<h1 className="section-title">CONTACT</h1>
 			<div className="social-btn-group">
 				<a href="https://www.linkedin.com/in/joshremaley/" target="_blank" rel="noopener noreferer" className='social-btn'>
 					<i className="fa fa-linkedin social-btn-text"></i></a>
@@ -33,11 +32,4 @@ const mapState = state => {
 	}
 }
 
-export default connect(mapState)(Social)
-
-/**
- * PROP TYPES
- */
-Social.propTypes = {
-	email: PropTypes.string
-}
+export default connect(mapState)(Contact)

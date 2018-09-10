@@ -1,16 +1,15 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
-import { Image, Grid, Row, Col, Button } from 'react-bootstrap'
+import { Image, Grid, Row, Col } from 'react-bootstrap'
 
 /**
  * COMPONENT
  */
-export const Portfolio = props => {
+export const Projects = props => {
 	const { email } = props
 
 	return <section className="anchor" id="projects">
-		<h1 style={{ textAlign: 'center', margin: '1em 10% 0.5em 10%' }}>PROJECTS</h1>
+		<h1 className="section-title">PROJECTS</h1>
 		<Grid>
 			<Row>
 				<Col xs={12} md={4} lg={4}>
@@ -50,15 +49,7 @@ export const Portfolio = props => {
  */
 const mapState = state => {
 	return {
-		//email: state.user.email
 	}
 }
 
-export default connect(mapState)(Portfolio)
-
-/**
- * PROP TYPES
- */
-Portfolio.propTypes = {
-	email: PropTypes.string
-}
+export default connect(mapState)(Projects)
