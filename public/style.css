@@ -34,12 +34,20 @@ html {
 .about-me {
   text-align: center;
   padding: 1em 10% 1em 10%;
-  font-size: 1px;
+  font-size: 18px;
 }
 
 .section-title {
   text-align: center;
   padding: 1em 10% 1em 10%;
+}
+
+.home-headshot {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .project {
@@ -48,18 +56,46 @@ html {
   align-items: center;
   justify-content: center;
   padding: 5% 1em;
-  transition: .15s;
+  transition: .5s;
 }
 
-.project > img {
-  max-width: 100%
+.project:hover {
+  /* background-color: #F4FDFA; dark D4F7EC or light F4FDFA */
+}
+
+.project > a > i {
+  transition: .35s;
+  color: #1258DC;
+}
+
+.project > a > i:hover {
+  transform: scale(1.2);
+  color: #2E2FE3;
+}
+
+.project > a {
+  display: flex;
+}
+
+.project > a > img {
+  max-width: 90%;
+  max-height: 90%;
+  margin: auto auto 1em auto;
+  align-self: center;
+  justify-self: center;
+  transition: 0.35s;
+}
+
+.project > a > img:hover {
+  transform: scale(1.1);
 }
 
 .social-btn-group {
   display: flex;
   justify-content: space-evenly;
-  margin: 0.5em 20% 0.5em 20%;
+  margin: 0.5em auto 0.5em auto;
   min-width: 320px;
+  max-width: 500px;
 }
 .social-btn {
   display:flex;
