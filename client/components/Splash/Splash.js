@@ -17,6 +17,7 @@ export const Splash = props => {
       <About />
       <Portfolio />
       <Social />
+      <p style={{ textAlign: 'center', margin: '2em 10% 0.5em 10%' }}>Built using React-Bootstrap and hosted in a docker container on my home server.</p>
     </div>
   )
 }

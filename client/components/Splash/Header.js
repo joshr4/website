@@ -23,8 +23,11 @@ export const Header = props => {
           <NavItem eventKey={2} href="#about">
             ABOUT
         </NavItem>
-          <NavItem eventKey={3} href="#portfolio">
-            PORTFOLIO
+          <NavItem eventKey={3} href="#projects">
+            PROJECTS
+        </NavItem>
+        <NavItem eventKey={3} href="#contact">
+            CONTACT
         </NavItem>
           {/* <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
             <MenuItem eventKey={3.1}>Action</MenuItem>
