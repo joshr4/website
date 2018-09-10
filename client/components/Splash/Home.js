@@ -10,18 +10,21 @@ export const Home = props => {
   const { email } = props
 
   return (
-    <section id="home">
-      <Jumbotron >
+    <section id="home" style={{paddingTop: '2.5em'}}>
+      <Jumbotron>
         <Grid>
           <Row className="show-grid">
               <Col xs={12} md={6} lg={6}>
                 <div className='home-headshot'>
-                  <Image src="/img/headshot.jpg" circle responsive />
+                  <Image src="/img/headshot.jpg" circle responsive/>
+                {/* <h2 style={{ fontSize: '34px', textAlign: 'center' }}>Hi, I'm Josh.</h2> */}
                 </div>
               </Col>
               <Col xs={12} md={6} lg={6}>
+              <div className='home-text'>
                 <h2 style={{ fontSize: '34px', textAlign: 'center' }}>Hi, I'm Josh.</h2>
                 <p style={{ fontSize: '18px', textAlign: 'center' }}>I’m a mechanical engineer turned full stack developer who has a passion for learning new technologies.</p>
+                </div>
               </Col>
           </Row>
         </Grid>
