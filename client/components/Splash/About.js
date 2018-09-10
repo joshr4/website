@@ -10,13 +10,14 @@ export const About = props => {
   const { email } = props
 
   return (
-      <section id="about">
-        <div style={{borderRadius: '0.5em'}}>
-          <h4>I’m a full stack developer who has a passion for new technologies. My preffered stack is Node.js with express and sequelize with React + Redux on the frontend.</h4>
-          <h4>In my past career I was a mechanical engineering consultant. I recently completed an immersive software engineering program at Fullstack Academy. I'm a big proponent of distributed ledger blockchain technologies and will strive to expand my skills in this area.</h4>
-          <h4>Technologies: JavaScript(ES6), React, Redux, Node, Express, PostGreSQL, Sequelize, HTML/CSS, Docker, Portainer, Git, FreeNAS, Bitcoin</h4>
-        </div>
-      </section>
+    <section className="anchor" id="about">
+      <div style={{ margin: '6em 10% 2em 10%' }}>
+        <h1 style={{ textAlign: 'center' }}>ABOUT ME</h1>
+        <h4>In my past career I was a mechanical engineering consultant. I recently completed an immersive software engineering program at Fullstack Academy. I'm a big proponent of distributed ledger blockchain technologies and will strive to expand my skills in this area.</h4>
+        <h4>Proficient in: JavaScript(ES6), React, Redux, Node, Express, PostGreSQL, Sequelize, HTML/CSS, Git, FreeNAS, Bitcoin</h4>
+        <h4>Knowledgable in: Docker, Portainer, Heroku, Ethereum, Solidity</h4>
+      </div>
+    </section>
   )
 }
 

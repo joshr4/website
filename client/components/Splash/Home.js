@@ -14,10 +14,11 @@ export const Home = props => {
       <Jumbotron>
         <Grid>
           <Row className="show-grid">
-            <div style={{ margin: '10%' }}>
+            <div style={{ margin: '10% 10% 0% 10%' }}>
               <Col xs={12} md={8}>
                 <h2>Hi, I'm Josh.</h2>
-                <p>I’m a full stack developer who has a passion for new technologies. My preffered stack is Node.js with express and sequelize with React + Redux on the frontend.</p>
+                <p>I’m a mechanical engineer turned full stack developer who has a passion for learning new technologies.</p>
+                <p>I'm most comfortable using Node.js with express and sequelize, and React + Redux on the frontend.</p>
               </Col>
               <Col xs={6} md={4}>
                 <Image src="/img/headshot.jpg" circle responsive />

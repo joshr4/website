@@ -9,8 +9,8 @@ import { Thumbnail, Grid, Row, Col, Button } from 'react-bootstrap'
 export const Portfolio = props => {
 	const { email } = props
 
-	return <section id="portfolio">
-		<h1 style={{textAlign:'center'}}>PROJECTS</h1>
+	return <section className="anchor" id="portfolio">
+		<h1 style={{textAlign:'center', margin: '2em 0% 2em 0%'}}>PROJECTS</h1>
 		<div></div>
 		<Grid>
 			<Row>
@@ -31,8 +31,8 @@ export const Portfolio = props => {
 					</Thumbnail>
 				</Col>
 				<Col xs={6} md={4}>
-					<Thumbnail src="/img/raspberry_pi.jpg" target="_blank" href="https://www.youtube.com/watch/Gkr4o3UUU10" alt="242x200">
-						<h3>Raspberry Pi Thermostat</h3>
+					<Thumbnail src="/img/rpi.jpg" target="_blank" href="https://www.youtube.com/watch/Gkr4o3UUU10" alt="242x200">
+						<h3>Raspberry Pi</h3>
 						<a href="https://github.com/joshr4/stackathon" target="_blank" rel="noopener noreferer">
 							<i className="fa fa-github"> Github Repo</i>
 						</a>
