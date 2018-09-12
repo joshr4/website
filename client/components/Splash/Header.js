@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
-import { Navbar, Nav, MenuItem, NavDropdown, NavItem } from 'react-bootstrap'
+import { Navbar, Nav, MenuItem, NavDropdown, NavItem} from 'react-bootstrap'
 
 /**
  * COMPONENT
@@ -13,7 +13,7 @@ export const Header = props => {
     <Navbar inverse collapseOnSelect fixedTop={true}>
       <Navbar.Header>
         <Navbar.Brand>
-          <a href="#home">Josh Remaley</a>
+          <a href="#home"><img src="/img/site-logo.png" /> Josh Remaley</a>
         </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar.Header>

@@ -14,16 +14,16 @@ export const Home = props => {
       <Jumbotron>
         <Grid>
           <Row className="show-grid">
-              <Col xs={12} md={6} lg={6}>
+              <Col xs={12} md={4} mdOffset={2}>
                 <div className='home-headshot'>
                   <Image src="/img/headshot.jpg" circle responsive/>
                 {/* <h2 style={{ fontSize: '34px', textAlign: 'center' }}>Hi, I'm Josh.</h2> */}
                 </div>
               </Col>
-              <Col xs={12} md={6} lg={6}>
+              <Col xs={12} md={4}>
               <div className='home-text'>
-                <h2 style={{ fontSize: '34px', textAlign: 'center' }}>Hi, I'm Josh.</h2>
-                <p style={{ fontSize: '18px', textAlign: 'center' }}>I’m a mechanical engineer turned full stack developer who has a passion for learning new technologies.</p>
+                <h2 className='home-text-scroll' style={{ fontSize: '34px', textAlign: 'center' }}>Hi, I'm Josh.</h2>
+                <p style={{ fontSize: '18px', textAlign: 'center' }}>I’m a full stack developer who has a passion for learning new technologies.</p>
                 </div>
               </Col>
           </Row>
